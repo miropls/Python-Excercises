@@ -1,4 +1,4 @@
-
+# Function checks whether the user given number is dividable by 2, 2 and 4 or neither(odd number).
 
 def checkOddOrEven():
     num = int(input("Please insert a number: "))

@@ -1,3 +1,5 @@
+# Small game where the computer chooses a number between 1 and 9 on random, and the user has to guess the number.
+
 import random
 import sys
 import time
@@ -30,20 +32,12 @@ def guessing_game():
         time.sleep(2)
         
         while True:
-            try:
-                continue_game = input("Do you wish to play again? Type 'yes' to play again or 'exit' to exit the game: \n")
-                return continue_game
-            except:
-                print("Please, enter 'yes' or 'exit'!")
-                continue
+            continue_game = input("Do you wish to play again? Type 'yes' to play again or 'exit' to exit the game: \n")
 
-            try:
-                if continue_game == "yes":
-                    break
-                elif continue_game == "exit":
-                    sys.exit()
-            except:
-                print("Please type 'yes' or 'exit'.")
+            if continue_game == "yes":
+                break
+            elif continue_game == "exit":
+                sys.exit()
 
 
 guessing_game()

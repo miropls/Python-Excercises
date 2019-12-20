@@ -1,3 +1,5 @@
+# Hot seat "game" of rock-paper-scissors.
+
 play_again = True
 
 while(play_again is True):

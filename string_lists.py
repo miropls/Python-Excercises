@@ -1,3 +1,5 @@
+# Program asks the user for a word and checks whether it is a palindrome.
+
 given_word = input("Please submit a word and I will check if it's a palindrome: ")
 given_word_list = []
 reversed_word = []

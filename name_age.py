@@ -1,3 +1,5 @@
+# Ask for users name and year of birth, then print out their name and their age in 100 years.
+
 name = input("What is your name?: ")
 birth_year = int(input("And which year were you born?: "))
 age_in_100_yrs = birth_year + 100

@@ -1,3 +1,5 @@
+# Randomize a list of numbers in random_num_list function, then print out the first and last index into another list in a second function. 
+
 import random
 
 rand_num_list = []
